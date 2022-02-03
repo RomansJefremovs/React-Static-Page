@@ -1,0 +1,33 @@
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #21222A;
+   height: 100px;
+}
+.nav-logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-logo > img{
+    width: 40px;
+    height: 40px;
+    padding: 30px;
+}
+.nav-logo > h3{
+    font-family: 'Inter', sans-serif;
+    color: #61DAFB;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22.2535px;
+}
+.nav-container > h4{
+    font-family: 'Inter', sans-serif;
+    margin-left: auto;
+    color: #DEEBF8;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 30px;
+}

@@ -1,0 +1,40 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 0px;
+    background-image: url("../Images/reactjs-icon 2.png");
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: center;
+
+}
+
+.main--title{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 39px;
+    line-height: 47px;
+    color: #ffffff;
+    padding-left: 27px;
+    padding-top: 20px;
+    letter-spacing: -0.05em;
+}
+.main > ul{
+    padding-left: 74px;
+}
+.main > ul > li{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    padding-bottom: 20px;
+}
+
+.main > ul > li::marker {
+    color: #61DAFB;
+    font-size: 1.6rem;
+}
